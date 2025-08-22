@@ -30,7 +30,7 @@ export interface Transaction {
   status: 'pending' | 'completed' | 'failed';
   timestamp: string;
   description: string;
-  metadata?: any;
+  metadata?: Record<string, unknown>;
 }
 
 export interface Organization {

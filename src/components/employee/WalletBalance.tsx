@@ -3,7 +3,7 @@
 import { Wallet } from '@/types';
 import { Badge } from '@/components/ui/badge';
 import { Progress } from '@/components/ui/progress';
-import { DollarSign, TrendingUp } from 'lucide-react';
+
 
 interface WalletBalanceProps {
   wallet: Wallet;

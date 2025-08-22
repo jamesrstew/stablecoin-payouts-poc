@@ -11,7 +11,6 @@ import {
   Building, 
   CreditCard, 
   ArrowUpFromLine,
-  DollarSign,
   RefreshCw
 } from 'lucide-react';
 
@@ -160,7 +159,7 @@ export default function CashOutOptions({ wallet }: CashOutOptionsProps) {
 
       {selectedMethod && amount && Number(amount) >= 10 && (
         <div className="text-xs text-gray-500 text-center">
-          You'll receive approximately ${(Number(amount) * (selectedMethod === 'card' ? 0.985 : 1)).toFixed(2)} USD
+          You&apos;ll receive approximately ${(Number(amount) * (selectedMethod === 'card' ? 0.985 : 1)).toFixed(2)} USD
         </div>
       )}
     </div>

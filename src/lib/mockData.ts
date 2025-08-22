@@ -60,7 +60,7 @@ export const getCryptoAdoptionStats = (orgId: string) => {
   };
 };
 
-export const getTotalCryptoPayouts = (orgId: string): number => {
+export const getTotalCryptoPayouts = (_orgId: string): number => {
   const cryptoTransactions = transactions.filter(tx => 
     tx.type === 'payroll' && 
     tx.currency === 'USDC' && 
@@ -70,7 +70,7 @@ export const getTotalCryptoPayouts = (orgId: string): number => {
   return cryptoTransactions.reduce((sum, tx) => sum + tx.amount, 0);
 };
 
-export const getMonthlyPayoutTrend = (orgId: string, months = 6) => {
+export const getMonthlyPayoutTrend = (_orgId: string, months = 6) => {
   const payrollTxs = transactions.filter(tx => 
     tx.type === 'payroll' && 
     tx.currency === 'USDC' && 

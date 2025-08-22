@@ -97,9 +97,12 @@ export default function TransactionHistory({ transactions }: TransactionHistoryP
               <TableCell>
                 <div className="max-w-xs">
                   <div className="font-medium text-sm">{transaction.description}</div>
-                  {transaction.metadata?.period && (
-                    <div className="text-xs text-gray-500">Period: {transaction.metadata.period}</div>
-                  )}
+                  {(() => {
+                    const period = transaction.metadata?.period;
+                    return period && typeof period === 'string' ? (
+                      <div className="text-xs text-gray-500">Period: {period}</div>
+                    ) : null;
+                  })()}
                 </div>
               </TableCell>
               <TableCell>

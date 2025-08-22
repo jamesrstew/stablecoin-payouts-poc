@@ -14,7 +14,6 @@ interface PayrollRunnerProps {
 export default function PayrollRunner({ orgId }: PayrollRunnerProps) {
   const [isRunning, setIsRunning] = useState(false);
   const payrollRuns = getPayrollRunsByOrganization(orgId);
-  const latestRun = payrollRuns[0];
   const cryptoEmployees = getCryptoEnabledEmployees(orgId);
 
   const handleRunPayroll = async () => {

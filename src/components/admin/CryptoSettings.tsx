@@ -17,7 +17,7 @@ export default function CryptoSettings({ orgId }: CryptoSettingsProps) {
   const organization = getOrganizationById(orgId);
   const [enabled, setEnabled] = useState(organization?.cryptoEnabled || false);
   const [monthlyLimit, setMonthlyLimit] = useState(organization?.settings.maxMonthlyLimit || 10000);
-  const [kycRequired, setKycRequired] = useState(organization?.settings.kycRequired || true);
+  const [kycRequired, setKycRequired] = useState<boolean>(organization?.settings.kycRequired || true);
 
   const handleSave = () => {
     // In a real app, this would save to backend

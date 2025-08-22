@@ -28,7 +28,7 @@ import PayrollRunner from './PayrollRunner';
 
 export default function AdminDashboard() {
   const { user } = useAuth();
-  const { adoptionStats, totalPayouts, monthlyTrend, payrollRuns } = useOrganizationData(user?.organizationId || '');
+  const { adoptionStats, totalPayouts, monthlyTrend } = useOrganizationData(user?.organizationId || '');
 
   const statCards = [
     {

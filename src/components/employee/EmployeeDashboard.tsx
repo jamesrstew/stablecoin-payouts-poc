@@ -11,8 +11,6 @@ import {
   ArrowDownToLine, 
   ArrowUpFromLine, 
   Settings,
-  CreditCard,
-  Building,
   Clock
 } from 'lucide-react';
 import WalletBalance from './WalletBalance';
