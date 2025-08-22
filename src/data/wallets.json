@@ -1,0 +1,50 @@
+[
+  {
+    "id": "wallet-1",
+    "userId": "emp-1",
+    "usdcBalance": 3450.75,
+    "usdBalance": 0,
+    "address": "0x742d35Cc6674C01532E5b345a1b2e8e12345",
+    "status": "active"
+  },
+  {
+    "id": "wallet-2",
+    "userId": "emp-2",
+    "usdcBalance": 2850.00,
+    "usdBalance": 150.25,
+    "address": "0x893f21Dd8823F89543C6b789a2b3f4567890",
+    "status": "active"
+  },
+  {
+    "id": "wallet-3",
+    "userId": "emp-3",
+    "usdcBalance": 0,
+    "usdBalance": 0,
+    "address": "0x123a45Ee9012G78901H5i345j6k7l89012",
+    "status": "pending"
+  },
+  {
+    "id": "wallet-5",
+    "userId": "emp-5",
+    "usdcBalance": 4200.50,
+    "usdBalance": 300.00,
+    "address": "0x456b78Ff0123I90234J6k567l8m9n01234",
+    "status": "active"
+  },
+  {
+    "id": "wallet-6",
+    "userId": "emp-6",
+    "usdcBalance": 1950.25,
+    "usdBalance": 0,
+    "address": "0x789c01Gg2345K01345L7m890n1o2p34567",
+    "status": "active"
+  },
+  {
+    "id": "wallet-8",
+    "userId": "emp-8",
+    "usdcBalance": 3750.00,
+    "usdBalance": 250.75,
+    "address": "0x012d34Hh4567M23456N8o123p4q5r67890",
+    "status": "active"
+  }
+]

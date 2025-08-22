@@ -1,0 +1,12 @@
+[
+  {
+    "id": "org-1",
+    "name": "TechCorp Global",
+    "cryptoEnabled": true,
+    "settings": {
+      "allowedCountries": ["AR", "BR", "IN", "NG", "KR", "EG", "CN", "PH", "VN", "CO"],
+      "maxMonthlyLimit": 10000,
+      "kycRequired": true
+    }
+  }
+]

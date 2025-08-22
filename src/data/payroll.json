@@ -1,0 +1,37 @@
+[
+  {
+    "id": "payroll-1",
+    "organizationId": "org-1",
+    "period": "2024-08",
+    "status": "completed",
+    "totalAmount": 45000.00,
+    "cryptoAmount": 16201.50,
+    "employeeCount": 8,
+    "cryptoEmployeeCount": 5,
+    "createdAt": "2024-08-01T10:00:00Z",
+    "completedAt": "2024-08-01T12:10:00Z"
+  },
+  {
+    "id": "payroll-2",
+    "organizationId": "org-1",
+    "period": "2024-07",
+    "status": "completed",
+    "totalAmount": 44500.00,
+    "cryptoAmount": 15850.75,
+    "employeeCount": 8,
+    "cryptoEmployeeCount": 5,
+    "createdAt": "2024-07-01T10:00:00Z",
+    "completedAt": "2024-07-01T12:15:00Z"
+  },
+  {
+    "id": "payroll-3",
+    "organizationId": "org-1",
+    "period": "2024-09",
+    "status": "draft",
+    "totalAmount": 46000.00,
+    "cryptoAmount": 16500.00,
+    "employeeCount": 8,
+    "cryptoEmployeeCount": 5,
+    "createdAt": "2024-08-25T10:00:00Z"
+  }
+]

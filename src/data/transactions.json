@@ -1,0 +1,154 @@
+[
+  {
+    "id": "tx-1",
+    "walletId": "wallet-1",
+    "userId": "emp-1",
+    "type": "payroll",
+    "amount": 3450.75,
+    "currency": "USDC",
+    "status": "completed",
+    "timestamp": "2024-08-01T12:00:00Z",
+    "description": "August 2024 Salary Payment",
+    "metadata": {
+      "payrollRunId": "payroll-1",
+      "period": "2024-08"
+    }
+  },
+  {
+    "id": "tx-2",
+    "walletId": "wallet-2",
+    "userId": "emp-2",
+    "type": "payroll",
+    "amount": 2850.00,
+    "currency": "USDC",
+    "status": "completed",
+    "timestamp": "2024-08-01T12:01:00Z",
+    "description": "August 2024 Salary Payment",
+    "metadata": {
+      "payrollRunId": "payroll-1",
+      "period": "2024-08"
+    }
+  },
+  {
+    "id": "tx-3",
+    "walletId": "wallet-2",
+    "userId": "emp-2",
+    "type": "cashout",
+    "amount": 1000.00,
+    "currency": "USDC",
+    "status": "completed",
+    "timestamp": "2024-08-05T14:30:00Z",
+    "description": "Cash out to bank account",
+    "metadata": {
+      "bankAccount": "****1234",
+      "exchangeRate": 1.0
+    }
+  },
+  {
+    "id": "tx-4",
+    "walletId": "wallet-5",
+    "userId": "emp-5",
+    "type": "payroll",
+    "amount": 4200.50,
+    "currency": "USDC",
+    "status": "completed",
+    "timestamp": "2024-08-01T12:02:00Z",
+    "description": "August 2024 Salary Payment",
+    "metadata": {
+      "payrollRunId": "payroll-1",
+      "period": "2024-08"
+    }
+  },
+  {
+    "id": "tx-5",
+    "walletId": "wallet-6",
+    "userId": "emp-6",
+    "type": "payroll",
+    "amount": 1950.25,
+    "currency": "USDC",
+    "status": "completed",
+    "timestamp": "2024-08-01T12:03:00Z",
+    "description": "August 2024 Salary Payment",
+    "metadata": {
+      "payrollRunId": "payroll-1",
+      "period": "2024-08"
+    }
+  },
+  {
+    "id": "tx-6",
+    "walletId": "wallet-8",
+    "userId": "emp-8",
+    "type": "payroll",
+    "amount": 3750.00,
+    "currency": "USDC",
+    "status": "completed",
+    "timestamp": "2024-08-01T12:04:00Z",
+    "description": "August 2024 Salary Payment",
+    "metadata": {
+      "payrollRunId": "payroll-1",
+      "period": "2024-08"
+    }
+  },
+  {
+    "id": "tx-7",
+    "walletId": "wallet-5",
+    "userId": "emp-5",
+    "type": "cashout",
+    "amount": 500.00,
+    "currency": "USDC",
+    "status": "completed",
+    "timestamp": "2024-08-10T16:45:00Z",
+    "description": "Cash out to debit card",
+    "metadata": {
+      "debitCard": "****5678",
+      "exchangeRate": 1.0
+    }
+  },
+  {
+    "id": "tx-8",
+    "walletId": "wallet-1",
+    "userId": "emp-1",
+    "type": "payroll",
+    "amount": 3450.75,
+    "currency": "USDC",
+    "status": "completed",
+    "timestamp": "2024-07-01T12:00:00Z",
+    "description": "July 2024 Salary Payment",
+    "metadata": {
+      "payrollRunId": "payroll-2",
+      "period": "2024-07"
+    }
+  },
+  {
+    "id": "tx-9",
+    "walletId": "wallet-8",
+    "userId": "emp-8",
+    "type": "conversion",
+    "amount": 500.00,
+    "currency": "USD",
+    "status": "completed",
+    "timestamp": "2024-08-15T10:20:00Z",
+    "description": "Convert USDC to USD",
+    "metadata": {
+      "fromCurrency": "USDC",
+      "toCurrency": "USD",
+      "exchangeRate": 0.998
+    }
+  },
+  {
+    "id": "tx-10",
+    "walletId": "wallet-3",
+    "userId": "emp-3",
+    "type": "payroll",
+    "amount": 2200.00,
+    "currency": "USDC",
+    "status": "pending",
+    "timestamp": "2024-08-01T12:05:00Z",
+    "description": "August 2024 Salary Payment - Pending KYC",
+    "metadata": {
+      "payrollRunId": "payroll-1",
+      "period": "2024-08",
+      "reason": "KYC verification required"
+    }
+  }
+]
