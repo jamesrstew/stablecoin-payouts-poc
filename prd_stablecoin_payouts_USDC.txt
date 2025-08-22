@@ -1,0 +1,172 @@
+PRD: Stablecoin Payouts (USDC) – Deel 
+1. Executive Summary
+Deel will introduce a “Get Paid in Crypto” feature that enables employees worldwide to receive payroll in USDC. Employers can offer it as an optional payout method without needing deep blockchain expertise. Employees will benefit from instant, low-cost, globally accessible payouts that integrate seamlessly with Deel’s existing hosted wallet/debit card experience. This feature strengthens Deel’s differentiation in the payroll space and builds credibility with web3-native talent.
+
+2. Problem / Context
+Overview
+Employees in many regions (LatAm, Africa, SE Asia) face inflation, unstable currencies, and costly/slow banking systems.
+
+
+Employers want to provide flexible payout options without the complexity of managing crypto infrastructure.
+
+
+Deel already provides a hosted wallet and debit card experience. Expanding it to stablecoins requires minimal user friction.
+
+
+Impact
+Employees gain faster, cheaper access to funds in a stable asset (USDC).
+
+
+Employers increase attractiveness to global talent by offering modern payout options.
+
+
+Deel enhances competitive position versus Rippling, Papaya, and traditional payroll systems.
+
+
+
+3. Users
+Primary
+Payroll Ops Managers (Employer-side): configure payout options, ensure compliance, execute payroll runs.
+
+
+Employees: opt into USDC, manage wallets, withdraw/spend.
+
+
+Secondary
+CFO / FP&A: oversee cash management, ensure reporting compliance.
+
+
+Regulators / Auditors: require transparent, auditable records.
+
+
+Deel Internal Ops: handle integrations with custody/treasury providers.
+
+
+
+4. Goals & Non-Goals
+Goals
+Let employers easily enable crypto payouts within existing payroll flows.
+
+
+Provide hosted wallet functionality for employees (no self-custody required).
+
+
+Ensure payouts are compliant (KYC/AML) and auditable.
+
+
+Enable conversion between USDC → fiat (cash-out to bank or debit card).
+
+
+Deliver POC quickly with mocked backend + AI-assisted coding.
+
+
+Non-Goals
+Supporting all cryptocurrencies (scope: USDC only).
+
+
+Building proprietary custody tech (use existing providers/partners).
+
+
+Providing yield/interest-bearing stablecoins in v1.
+
+
+Deep FX/treasury automation (future scope).
+
+
+
+5. Proposed Solution
+Overview
+Add “Get Paid in Crypto (USDC)” as an employee payout option. Integrates into existing hosted wallet/debit card flows.
+Features
+Employer Configuration
+
+
+Payroll ops can enable/disable crypto payouts.
+
+
+Visibility in admin dashboard (reporting, audit logs).
+
+
+Employee Experience
+
+
+Option during onboarding or settings → “Receive payroll in crypto.”
+
+
+Simple hosted wallet (balance displayed in USD + USDC).
+
+
+Ability to cash out to bank account or spend via debit card.
+
+
+Compliance
+
+
+Automatic KYC/AML checks (reuse existing identity flow).
+
+
+Full payroll records preserved in fiat terms for reporting.
+
+
+Treasury/Settlement
+
+
+Deel aggregates fiat from employers.
+
+
+Converts via liquidity provider to USDC (under the hood).
+
+
+Credits employee wallets in real time.
+
+
+User Stories
+As a payroll ops manager, I want to enable crypto payouts for my employees without learning crypto, so that I can offer more flexibility while staying compliant.
+
+
+As an employee, I want to choose USDC payouts, so that I can avoid local banking friction and maintain stable value.
+
+
+
+6. Success Metrics
+Northstar metric: total number deel-using employees getting paid out in USDC (1 month lookback)
+Awareness – % of employees aware of crypto payout option during onboarding.
+ Activation – % of opted-in employees selecting USDC as payout method.
+ Engagement – # of payouts executed in USDC / month.
+ Retention – % of employees who continue using USDC payouts after 3 months.
+ Monetization / Efficiency – Reduction in payout processing costs vs. SWIFT; optional small spread or FX fee revenue.
+
+7. GTM (Go-To-Market)
+Internal POC
+
+
+Build clickable demo with React/Next.js frontend.
+
+
+Mock backend API (Node.js) for wallet balances and transactions. (hardcoded is fine)
+
+
+Pilot
+
+
+Launch with select employer(s) and <100 employees.
+
+
+Limit geography (e.g., Argentina, Nigeria, Philippines).
+
+
+Measure activation + NPS before broader rollout.
+
+
+Messaging
+
+
+Position as “faster, cheaper payouts, powered by stablecoins”.
+
+
+Highlight employee empowerment + employer simplicity.
+
+
+Avoid crypto hype; emphasize compliance + stability.
+
+
